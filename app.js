@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
   res.send(`
     <form method="post" action="/submit">
       <br><br><label for="hexdata"><strong>Demo PayForBlob Transactions</strong></label><br><br>
-      <br><br><label for="hexdata">Enter hexdata:</label>
+      <br><br><label for="hexdata">Enter your message:</label>
       <input type="text" id="hexdata" name="hexdata">
       <button type="submit">Submit</button>
     </form>
